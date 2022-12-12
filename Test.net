@@ -1,0 +1,79 @@
+* C:\Users\dougl\Documents\Universidade\6oSemestre\Eletr\Trab3\circuitos\Test.asc
+V1 VDD 0 5V
+XCircuito 0 VDD 0 VDD 0 VDD VDD Res1 Res2 circuito
+XF1 0 VDD VDD VDD 0 ResF1 f1
+X3-stat 0 0 Res3St tri-state
+XX2 VDD 0 ResF2 f2
+
+* block symbol definitions
+.subckt circuito A B C D E En1 En2 O1 O2
+XTri-state1 En1 N001 O1 tri-state
+XTri-state2 En2 N002 O2 tri-state
+XF2 E N001 N002 f2
+XF1 A B C D E N001 f1
+.ends circuito
+
+.subckt f1 A B C D E F1_Res
+V1 N001 0 5V
+XMP1 F1_Res A N001 pmosx
+XMP2 N003 N002 N001 pmosx
+XMP3 N004 C N003 pmosx
+XMP4 N004 D N001 pmosx
+XMP5 F1_Res E N004 pmosx
+XMN1 F1_Res A N005 nmosx
+XMN2 N005 N006 N007 nmosx
+XMN3 N005 C N007 nmosx
+XMN4 N007 D 0 nmosx
+XMN5 N005 E 0 nmosx
+XNOT B N002 not
+XNOT1 B N006 not
+.ends f1
+
+.subckt tri-state Enable in out
+XMP1 in Enable out nmosx
+XMN1 in N001 out pmosx
+Xnot Enable N001 not
+.ends tri-state
+
+.subckt f2 E F1 R2
+XXOR F1 E R2 xor
+.ends f2
+
+.subckt pmosx D G S
+MP D G S VDD P_1u l=1u w=30u
+.inc cmos_modelos.txt
+.global VDD
+.ends pmosx
+
+.subckt nmosx D G S
+MN D G S 0 N_1u l=1u w=10u
+.inc cmos_modelos.txt
+.global VDD
+.ends nmosx
+
+.subckt not in out
+XMN out in 0 nmosx
+XMP out in N001 pmosx
+V1 N001 0 5V
+.ends not
+
+.subckt xor A B out
+XMP2 P001 A N001 pmosx
+XMP1 N001 !A P002 pmosx
+XMP3 P002 B out pmosx
+XMP4 out !B P001 pmosx
+XMN2 out A P003 nmosx
+XMN4 P003 B 0 nmosx
+XMN3 P004 !A out nmosx
+XMN1 0 !B P004 nmosx
+V1 N001 0 5V
+Xnot1 A !A not
+Xnot2 B !B not
+.ends xor
+
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\Users\dougl\Documents\LTspiceXVII\lib\cmp\standard.mos
+.tran 1s
+.backanno
+.end
