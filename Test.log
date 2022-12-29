@@ -1,40 +1,262 @@
-Circuit: * C:\Users\Andre\Desktop\ISEL\2223\LEIC\s1\E\Trab3\Test.asc
+Circuit: * C:\Users\ammit\Desktop\Pen\ISEL\ISEL\2223\LEIC\s1\E\Trab2\T2_Eletronica\Test.asc
 
 Direct Newton iteration for .op point succeeded.
-Heightened Def Con from 0.001 to 0.001
-Heightened Def Con from 0.126 to 0.126
-Heightened Def Con from 0.1885 to 0.1885
-Heightened Def Con from 0.251 to 0.251
-Heightened Def Con from 0.376 to 0.376
-Heightened Def Con from 0.5635 to 0.5635
-Heightened Def Con from 0.59475 to 0.59475
-Heightened Def Con from 0.626 to 0.626
-Heightened Def Con from 0.65725 to 0.65725
-Heightened Def Con from 0.6885 to 0.6885
-Heightened Def Con from 0.71975 to 0.71975
-Heightened Def Con from 0.751 to 0.751
-Heightened Def Con from 0.78225 to 0.78225
-Heightened Def Con from 0.8135 to 0.8135
-Heightened Def Con from 0.84475 to 0.84475
-Heightened Def Con from 0.876 to 0.876
-Heightened Def Con from 0.90725 to 0.90725
-Heightened Def Con from 0.9385 to 0.9385
-Heightened Def Con from 0.96975 to 0.96975
+Semiconductor Device Operating Points:
+                        --- MOSFET Transistors ---
+Name:      m:circuito:x2:not:mp:p  m:circuito:x2:not:mn:n  m:circuito:x2:mn1:p  m:circuito:x2:mp1:n  m:circuito:tri-state1:not:mp:p
+Model:     circuito:x2:not:mp:p_1u circuito:x2:not:mn:n_1u circuito:x2:mn1:p_1u circuito:x2:mp1:n_1u circuito:tri-state1:not:mp:p_1u
+Id:               -1.12e-11                1.12e-11              2.95e-12             7.51e-12                  -1.12e-11
+Vgs:              -5.00e+00                0.00e+00              2.50e+00            -2.50e+00                  -5.00e+00
+Vds:              -2.54e-09                5.00e+00              2.50e+00             2.50e+00                  -2.54e-09
+Vbs:               0.00e+00                0.00e+00              2.50e+00            -2.50e+00                   0.00e+00
+Vth:              -8.92e-01                8.22e-01             -8.92e-01             1.22e+00                  -8.92e-01
+Vdsat:            -1.61e+00                4.82e-02             -4.93e-02             4.80e-02                  -1.61e+00
+Gm:                1.90e-12                2.23e-11              8.05e-12             1.40e-35                   1.90e-12
+Gds:               4.41e-03                5.68e-14              1.63e-14             3.62e-38                   4.41e-03
+Gmb:               7.55e-13                7.19e-12              2.94e-12             2.03e-36                   7.55e-13
+Cbd:               0.00e+00                0.00e+00              0.00e+00             0.00e+00                   0.00e+00
+Cbs:               0.00e+00                0.00e+00              0.00e+00             0.00e+00                   0.00e+00
+Cgsov:             6.00e-15                2.00e-15              6.00e-15             2.00e-15                   6.00e-15
+Cgdov:             6.00e-15                2.00e-15              6.00e-15             2.00e-15                   6.00e-15
+Cgbov:             8.00e-17                8.00e-17              8.00e-17             8.00e-17                   8.00e-17
+Cgs:               2.07e-14                0.00e+00              0.00e+00             0.00e+00                   2.07e-14
+Cgd:               2.07e-14                0.00e+00              2.76e-14             0.00e+00                   2.07e-14
+Cgb:               0.00e+00                1.38e-14              0.00e+00             1.38e-14                   0.00e+00
 
-Date: Mon Dec 12 11:54:37 2022
-Total elapsed time: 0.908 seconds.
+Name:      m:circuito:tri-state1:not:mn:n  m:circuito:tri-state1:mn1:p  m:circuito:tri-state1:mp1:n  m:circuito:f1:not:mp:p  m:circuito:f1:not:mn:n
+Model:     circuito:tri-state1:not:mn:n_1u circuito:tri-state1:mn1:p_1u circuito:tri-state1:mp1:n_1u circuito:f1:not:mp:p_1u circuito:f1:not:mn:n_1u
+Id:                    1.12e-11                      2.95e-12                     7.51e-12                  -1.12e-11                1.12e-11
+Vgs:                   0.00e+00                      2.50e+00                    -2.50e+00                  -5.00e+00                0.00e+00
+Vds:                   5.00e+00                      2.50e+00                     2.50e+00                  -2.54e-09                5.00e+00
+Vbs:                   0.00e+00                      2.50e+00                    -2.50e+00                   0.00e+00                0.00e+00
+Vth:                   8.22e-01                     -8.92e-01                     1.22e+00                  -8.92e-01                8.22e-01
+Vdsat:                 4.82e-02                     -4.93e-02                     4.80e-02                  -1.61e+00                4.82e-02
+Gm:                    2.23e-11                      8.05e-12                     1.40e-35                   1.90e-12                2.23e-11
+Gds:                   5.68e-14                      1.63e-14                     3.62e-38                   4.41e-03                5.68e-14
+Gmb:                   7.19e-12                      2.94e-12                     2.03e-36                   7.55e-13                7.19e-12
+Cbd:                   0.00e+00                      0.00e+00                     0.00e+00                   0.00e+00                0.00e+00
+Cbs:                   0.00e+00                      0.00e+00                     0.00e+00                   0.00e+00                0.00e+00
+Cgsov:                 2.00e-15                      6.00e-15                     2.00e-15                   6.00e-15                2.00e-15
+Cgdov:                 2.00e-15                      6.00e-15                     2.00e-15                   6.00e-15                2.00e-15
+Cgbov:                 8.00e-17                      8.00e-17                     8.00e-17                   8.00e-17                8.00e-17
+Cgs:                   0.00e+00                      0.00e+00                     0.00e+00                   2.07e-14                0.00e+00
+Cgd:                   0.00e+00                      2.76e-14                     0.00e+00                   2.07e-14                0.00e+00
+Cgb:                   1.38e-14                      0.00e+00                     1.38e-14                   0.00e+00                1.38e-14
+
+Name:      m:circuito:f1:mn5:n  m:circuito:f1:mn4:n  m:circuito:f1:mn3:n  m:circuito:f1:mn2:n  m:circuito:f1:mn1:n
+Model:     circuito:f1:mn5:n_1u circuito:f1:mn4:n_1u circuito:f1:mn3:n_1u circuito:f1:mn2:n_1u circuito:f1:mn1:n_1u
+Id:              1.65e-12             1.65e-12             2.85e-13             2.51e-12             9.74e-12
+Vgs:             0.00e+00             0.00e+00            -2.75e-01             4.73e+00            -2.75e-01
+Vds:             2.75e-01             2.75e-01             5.28e-10             5.28e-10             4.73e+00
+Vbs:             0.00e+00             0.00e+00            -2.75e-01            -2.75e-01            -2.75e-01
+Vth:             8.22e-01             8.22e-01             8.86e-01             8.86e-01             8.86e-01
+Vdsat:           4.82e-02             4.82e-02             4.81e-02             1.31e+00             4.81e-02
+Gm:              1.93e-11             1.93e-11             7.30e-22             4.10e-13             3.79e-14
+Gds:             6.43e-14             6.43e-14             7.71e-14             4.20e-03             9.56e-17
+Gmb:             6.51e-12             6.51e-12             2.09e-22             1.25e-13             1.03e-14
+Cbd:             0.00e+00             0.00e+00             0.00e+00             0.00e+00             0.00e+00
+Cbs:             0.00e+00             0.00e+00             0.00e+00             0.00e+00             0.00e+00
+Cgsov:           2.00e-15             2.00e-15             2.00e-15             2.00e-15             2.00e-15
+Cgdov:           2.00e-15             2.00e-15             2.00e-15             2.00e-15             2.00e-15
+Cgbov:           8.00e-17             8.00e-17             8.00e-17             8.00e-17             8.00e-17
+Cgs:             0.00e+00             0.00e+00             0.00e+00             6.91e-15             0.00e+00
+Cgd:             0.00e+00             0.00e+00             0.00e+00             6.91e-15             0.00e+00
+Cgb:             1.38e-14             1.38e-14             1.38e-14             0.00e+00             1.38e-14
+
+Name:      m:circuito:f1:mp5:p  m:circuito:f1:mp4:p  m:circuito:f1:mp3:p  m:circuito:f1:mp2:p  m:circuito:f1:mp1:p
+Model:     circuito:f1:mp5:p_1u circuito:f1:mp4:p_1u circuito:f1:mp3:p_1u circuito:f1:mp2:p_1u circuito:f1:mp1:p_1u
+Id:             -6.73e-12            -6.73e-12            -2.12e-21            -3.06e-20            -1.35e-11
+Vgs:            -5.00e+00            -5.00e+00            -5.00e+00            -2.54e-09            -5.00e+00
+Vds:            -1.53e-09            -1.53e-09             0.00e+00            -1.53e-09            -3.05e-09
+Vbs:             1.53e-09             0.00e+00             1.53e-09             0.00e+00             0.00e+00
+Vth:            -8.92e-01            -8.92e-01            -8.92e-01            -8.92e-01            -8.92e-01
+Vdsat:          -1.61e+00            -1.61e+00            -1.61e+00            -4.93e-02            -1.61e+00
+Gm:              1.14e-12             1.14e-12             0.00e+00             4.65e-19             2.28e-12
+Gds:             4.41e-03             4.41e-03             4.41e-03             1.77e-11             4.41e-03
+Gmb:             4.53e-13             4.53e-13             0.00e+00             1.77e-19             9.06e-13
+Cbd:             0.00e+00             0.00e+00             0.00e+00             0.00e+00             0.00e+00
+Cbs:             0.00e+00             0.00e+00             0.00e+00             0.00e+00             0.00e+00
+Cgsov:           6.00e-15             6.00e-15             6.00e-15             6.00e-15             6.00e-15
+Cgdov:           6.00e-15             6.00e-15             6.00e-15             6.00e-15             6.00e-15
+Cgbov:           8.00e-17             8.00e-17             8.00e-17             8.00e-17             8.00e-17
+Cgs:             2.07e-14             2.07e-14             2.07e-14             2.07e-14             2.07e-14
+Cgd:             2.07e-14             2.07e-14             2.07e-14             2.07e-14             2.07e-14
+Cgb:             0.00e+00             0.00e+00             0.00e+00             0.00e+00             0.00e+00
+
+Name:      m:circuito:f2:xor:not2:mp:p  m:circuito:f2:xor:not2:mn:n  m:circuito:f2:xor:not1:mp:p  m:circuito:f2:xor:not1:mn:n  m:circuito:f2:xor:mn1:n
+Model:     circuito:f2:xor:not2:mp:p_1u circuito:f2:xor:not2:mn:n_1u circuito:f2:xor:not1:mp:p_1u circuito:f2:xor:not1:mn:n_1u circuito:f2:xor:mn1:n_1u
+Id:                 -1.12e-11                     1.12e-11                    -1.05e-11                     1.05e-11                  -6.21e-12
+Vgs:                -5.00e+00                     0.00e+00                    -3.05e-09                     5.00e+00                   5.00e+00
+Vds:                -2.54e-09                     5.00e+00                    -5.00e+00                     2.35e-09                  -1.39e-09
+Vbs:                 0.00e+00                     0.00e+00                     0.00e+00                     0.00e+00                  -1.39e-09
+Vth:                -8.92e-01                     8.22e-01                    -8.92e-01                     8.22e-01                   8.22e-01
+Vdsat:              -1.61e+00                     4.82e-02                    -4.93e-02                     1.35e+00                   1.35e+00
+Gm:                  1.90e-12                     2.23e-11                     8.71e-12                     1.74e-12                   1.03e-12
+Gds:                 4.41e-03                     5.68e-14                     1.69e-14                     4.46e-03                   4.46e-03
+Gmb:                 7.55e-13                     7.19e-12                     3.07e-12                     6.47e-13                   3.83e-13
+Cbd:                 0.00e+00                     0.00e+00                     0.00e+00                     0.00e+00                   0.00e+00
+Cbs:                 0.00e+00                     0.00e+00                     0.00e+00                     0.00e+00                   0.00e+00
+Cgsov:               6.00e-15                     2.00e-15                     6.00e-15                     2.00e-15                   2.00e-15
+Cgdov:               6.00e-15                     2.00e-15                     6.00e-15                     2.00e-15                   2.00e-15
+Cgbov:               8.00e-17                     8.00e-17                     8.00e-17                     8.00e-17                   8.00e-17
+Cgs:                 2.07e-14                     0.00e+00                     2.76e-14                     6.91e-15                   6.91e-15
+Cgd:                 2.07e-14                     0.00e+00                     0.00e+00                     6.91e-15                   6.91e-15
+Cgb:                 0.00e+00                     1.38e-14                     0.00e+00                     0.00e+00                   0.00e+00
+
+Name:      m:circuito:f2:xor:mn3:n  m:circuito:f2:xor:mn4:n  m:circuito:f2:xor:mn2:n  m:circuito:f2:xor:mp4:p  m:circuito:f2:xor:mp3:p
+Model:     circuito:f2:xor:mn3:n_1u circuito:f2:xor:mn4:n_1u circuito:f2:xor:mn2:n_1u circuito:f2:xor:mp4:p_1u circuito:f2:xor:mp3:p_1u
+Id:               -6.21e-12                 9.67e-12                 1.89e-11                -2.09e-19                 4.06e-11
+Vgs:              -5.00e+00                 0.00e+00                 7.66e-01                 6.02e-09                -5.00e+00
+Vds:              -5.00e+00                 4.23e+00                 7.66e-01                -9.84e-09                 9.20e-09
+Vbs:              -5.00e+00                 0.00e+00                -4.23e+00                 8.57e-09                 1.84e-08
+Vth:               8.22e-01                 8.22e-01                 1.39e+00                -8.92e-01                -8.92e-01
+Vdsat:             4.82e-02                 4.82e-02                 4.80e-02                -4.93e-02                -1.61e+00
+Gm:                2.23e-11                 2.19e-11                 2.55e-10                 3.00e-18                 6.88e-12
+Gds:               5.68e-14                 5.71e-14                 7.36e-13                 1.77e-11                 4.41e-03
+Gmb:               7.19e-12                 7.09e-12                 2.31e-11                 1.14e-18                 2.73e-12
+Cbd:               0.00e+00                 0.00e+00                 0.00e+00                 0.00e+00                 0.00e+00
+Cbs:               0.00e+00                 0.00e+00                 0.00e+00                 0.00e+00                 0.00e+00
+Cgsov:             2.00e-15                 2.00e-15                 2.00e-15                 6.00e-15                 6.00e-15
+Cgdov:             2.00e-15                 2.00e-15                 2.00e-15                 6.00e-15                 6.00e-15
+Cgbov:             8.00e-17                 8.00e-17                 8.00e-17                 8.00e-17                 8.00e-17
+Cgs:               0.00e+00                 0.00e+00                 0.00e+00                 2.07e-14                 2.07e-14
+Cgd:               0.00e+00                 0.00e+00                 0.00e+00                 2.07e-14                 2.07e-14
+Cgb:               1.38e-14                 1.38e-14                 1.23e-14                 0.00e+00                 0.00e+00
+
+Name:      m:circuito:f2:xor:mp1:p  m:circuito:f2:xor:mp2:p  m:f2:xor:not2:mp:p  m:f2:xor:not2:mn:n  m:f2:xor:not1:mp:p
+Model:     circuito:f2:xor:mp1:p_1u circuito:f2:xor:mp2:p_1u f2:xor:not2:mp:p_1u f2:xor:not2:mn:n_1u f2:xor:not1:mp:p_1u
+Id:                4.06e-11                -1.72e-19              -1.12e-11            1.12e-11           -1.05e-11
+Vgs:              -5.00e+00                -3.05e-09              -5.00e+00            0.00e+00           -1.47e-09
+Vds:               9.20e-09                -8.57e-09              -2.54e-09            5.00e+00           -5.00e+00
+Vbs:               9.20e-09                 0.00e+00               0.00e+00            0.00e+00            0.00e+00
+Vth:              -8.92e-01                -8.92e-01              -8.92e-01            8.22e-01           -8.92e-01
+Vdsat:            -1.61e+00                -4.93e-02              -1.61e+00            4.82e-02           -4.93e-02
+Gm:                6.88e-12                 2.61e-18               1.90e-12            2.23e-11            8.71e-12
+Gds:               4.41e-03                 1.77e-11               4.41e-03            5.68e-14            1.69e-14
+Gmb:               2.73e-12                 9.91e-19               7.55e-13            7.19e-12            3.07e-12
+Cbd:               0.00e+00                 0.00e+00               0.00e+00            0.00e+00            0.00e+00
+Cbs:               0.00e+00                 0.00e+00               0.00e+00            0.00e+00            0.00e+00
+Cgsov:             6.00e-15                 6.00e-15               6.00e-15            2.00e-15            6.00e-15
+Cgdov:             6.00e-15                 6.00e-15               6.00e-15            2.00e-15            6.00e-15
+Cgbov:             8.00e-17                 8.00e-17               8.00e-17            8.00e-17            8.00e-17
+Cgs:               2.07e-14                 2.07e-14               2.07e-14            0.00e+00            2.76e-14
+Cgd:               2.07e-14                 2.07e-14               2.07e-14            0.00e+00            0.00e+00
+Cgb:               0.00e+00                 0.00e+00               0.00e+00            1.38e-14            0.00e+00
+
+Name:      m:f2:xor:not1:mn:n  m:f2:xor:mn1:n  m:f2:xor:mn3:n  m:f2:xor:mn4:n  m:f2:xor:mn2:n
+Model:     f2:xor:not1:mn:n_1u f2:xor:mn1:n_1u f2:xor:mn3:n_1u f2:xor:mn4:n_1u f2:xor:mn2:n_1u
+Id:              1.05e-11         -6.21e-12       -6.21e-12        9.67e-12        1.89e-11
+Vgs:             5.00e+00          5.00e+00       -5.00e+00        0.00e+00        7.66e-01
+Vds:             2.35e-09         -1.39e-09       -5.00e+00        4.23e+00        7.66e-01
+Vbs:             0.00e+00         -1.39e-09       -5.00e+00        0.00e+00       -4.23e+00
+Vth:             8.22e-01          8.22e-01        8.22e-01        8.22e-01        1.39e+00
+Vdsat:           1.35e+00          1.35e+00        4.82e-02        4.82e-02        4.80e-02
+Gm:              1.74e-12          1.03e-12        2.23e-11        2.19e-11        2.55e-10
+Gds:             4.46e-03          4.46e-03        5.68e-14        5.71e-14        7.36e-13
+Gmb:             6.47e-13          3.83e-13        7.19e-12        7.09e-12        2.31e-11
+Cbd:             0.00e+00          0.00e+00        0.00e+00        0.00e+00        0.00e+00
+Cbs:             0.00e+00          0.00e+00        0.00e+00        0.00e+00        0.00e+00
+Cgsov:           2.00e-15          2.00e-15        2.00e-15        2.00e-15        2.00e-15
+Cgdov:           2.00e-15          2.00e-15        2.00e-15        2.00e-15        2.00e-15
+Cgbov:           8.00e-17          8.00e-17        8.00e-17        8.00e-17        8.00e-17
+Cgs:             6.91e-15          6.91e-15        0.00e+00        0.00e+00        0.00e+00
+Cgd:             6.91e-15          6.91e-15        0.00e+00        0.00e+00        0.00e+00
+Cgb:             0.00e+00          0.00e+00        1.38e-14        1.38e-14        1.23e-14
+
+Name:      m:f2:xor:mp4:p  m:f2:xor:mp3:p  m:f2:xor:mp1:p  m:f2:xor:mp2:p  m:tri-state:not:mp:p
+Model:     f2:xor:mp4:p_1u f2:xor:mp3:p_1u f2:xor:mp1:p_1u f2:xor:mp2:p_1u tri-state:not:mp:p_1u
+Id:           -1.55e-19        3.01e-11        3.01e-11       -1.27e-19          -1.12e-11
+Vgs:           3.82e-09       -5.00e+00       -5.00e+00       -1.47e-09          -5.00e+00
+Vds:          -7.30e-09        6.83e-09        6.83e-09       -6.36e-09          -2.54e-09
+Vbs:           6.36e-09        1.37e-08        6.83e-09        0.00e+00           0.00e+00
+Vth:          -8.92e-01       -8.92e-01       -8.92e-01       -8.92e-01          -8.92e-01
+Vdsat:        -4.93e-02       -1.61e+00       -1.61e+00       -4.93e-02          -1.61e+00
+Gm:            2.23e-18        5.11e-12        5.11e-12        1.94e-18           1.90e-12
+Gds:           1.77e-11        4.41e-03        4.41e-03        1.77e-11           4.41e-03
+Gmb:           8.45e-19        2.03e-12        2.03e-12        7.35e-19           7.55e-13
+Cbd:           0.00e+00        0.00e+00        0.00e+00        0.00e+00           0.00e+00
+Cbs:           0.00e+00        0.00e+00        0.00e+00        0.00e+00           0.00e+00
+Cgsov:         6.00e-15        6.00e-15        6.00e-15        6.00e-15           6.00e-15
+Cgdov:         6.00e-15        6.00e-15        6.00e-15        6.00e-15           6.00e-15
+Cgbov:         8.00e-17        8.00e-17        8.00e-17        8.00e-17           8.00e-17
+Cgs:           2.07e-14        2.07e-14        2.07e-14        2.07e-14           2.07e-14
+Cgd:           2.07e-14        2.07e-14        2.07e-14        2.07e-14           2.07e-14
+Cgb:           0.00e+00        0.00e+00        0.00e+00        0.00e+00           0.00e+00
+
+Name:      m:tri-state:not:mn:n  m:tri-state:mn1:p  m:tri-state:mp1:n  m:f1:not:mp:p  m:f1:not:mn:n
+Model:     tri-state:not:mn:n_1u tri-state:mn1:p_1u tri-state:mp1:n_1u f1:not:mp:p_1u f1:not:mn:n_1u
+Id:               1.12e-11           -5.98e-12          -2.08e-12        -1.12e-11       1.12e-11
+Vgs:              0.00e+00            4.03e+00          -9.72e-01        -5.00e+00       0.00e+00
+Vds:              5.00e+00           -9.72e-01          -9.72e-01        -2.54e-09       5.00e+00
+Vbs:              0.00e+00            4.03e+00          -9.72e-01         0.00e+00       0.00e+00
+Vth:              8.22e-01           -1.41e+00           8.22e-01        -8.92e-01       8.22e-01
+Vdsat:            4.82e-02           -4.92e-02           4.82e-02        -1.61e+00       4.82e-02
+Gm:               2.23e-11            3.57e-50           1.99e-11         1.90e-12       2.23e-11
+Gds:              5.68e-14            6.77e-53           6.14e-14         4.41e-03       5.68e-14
+Gmb:              7.19e-12            3.93e-51           6.63e-12         7.55e-13       7.19e-12
+Cbd:              0.00e+00            0.00e+00           0.00e+00         0.00e+00       0.00e+00
+Cbs:              0.00e+00            0.00e+00           0.00e+00         0.00e+00       0.00e+00
+Cgsov:            2.00e-15            6.00e-15           2.00e-15         6.00e-15       2.00e-15
+Cgdov:            2.00e-15            6.00e-15           2.00e-15         6.00e-15       2.00e-15
+Cgbov:            8.00e-17            8.00e-17           8.00e-17         8.00e-17       8.00e-17
+Cgs:              0.00e+00            0.00e+00           0.00e+00         2.07e-14       0.00e+00
+Cgd:              0.00e+00            0.00e+00           0.00e+00         2.07e-14       0.00e+00
+Cgb:              1.38e-14            4.14e-14           1.38e-14         0.00e+00       1.38e-14
+
+Name:      m:f1:mn5:n  m:f1:mn4:n  m:f1:mn3:n  m:f1:mn2:n  m:f1:mn1:n
+Model:     f1:mn5:n_1u f1:mn4:n_1u f1:mn3:n_1u f1:mn2:n_1u f1:mn1:n_1u
+Id:          1.65e-12    1.65e-12    2.85e-13    2.51e-12    9.74e-12
+Vgs:         0.00e+00    0.00e+00   -2.75e-01    4.73e+00   -2.75e-01
+Vds:         2.75e-01    2.75e-01    5.28e-10    5.28e-10    4.73e+00
+Vbs:         0.00e+00    0.00e+00   -2.75e-01   -2.75e-01   -2.75e-01
+Vth:         8.22e-01    8.22e-01    8.86e-01    8.86e-01    8.86e-01
+Vdsat:       4.82e-02    4.82e-02    4.81e-02    1.31e+00    4.81e-02
+Gm:          1.93e-11    1.93e-11    7.30e-22    4.10e-13    3.79e-14
+Gds:         6.43e-14    6.43e-14    7.71e-14    4.20e-03    9.56e-17
+Gmb:         6.51e-12    6.51e-12    2.09e-22    1.25e-13    1.03e-14
+Cbd:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cbs:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cgsov:       2.00e-15    2.00e-15    2.00e-15    2.00e-15    2.00e-15
+Cgdov:       2.00e-15    2.00e-15    2.00e-15    2.00e-15    2.00e-15
+Cgbov:       8.00e-17    8.00e-17    8.00e-17    8.00e-17    8.00e-17
+Cgs:         0.00e+00    0.00e+00    0.00e+00    6.91e-15    0.00e+00
+Cgd:         0.00e+00    0.00e+00    0.00e+00    6.91e-15    0.00e+00
+Cgb:         1.38e-14    1.38e-14    1.38e-14    0.00e+00    1.38e-14
+
+Name:      m:f1:mp5:p  m:f1:mp4:p  m:f1:mp3:p  m:f1:mp2:p  m:f1:mp1:p
+Model:     f1:mp5:p_1u f1:mp4:p_1u f1:mp3:p_1u f1:mp2:p_1u f1:mp1:p_1u
+Id:         -3.25e-12   -3.25e-12   -1.02e-21   -1.47e-20   -6.49e-12
+Vgs:        -5.00e+00   -5.00e+00   -5.00e+00   -2.54e-09   -5.00e+00
+Vds:        -7.36e-10   -7.36e-10    0.00e+00   -7.36e-10   -1.47e-09
+Vbs:         7.36e-10    0.00e+00    7.36e-10    0.00e+00    0.00e+00
+Vth:        -8.92e-01   -8.92e-01   -8.92e-01   -8.92e-01   -8.92e-01
+Vdsat:      -1.61e+00   -1.61e+00   -1.61e+00   -4.93e-02   -1.61e+00
+Gm:          5.50e-13    5.50e-13    0.00e+00    2.24e-19    1.10e-12
+Gds:         4.41e-03    4.41e-03    4.41e-03    1.77e-11    4.41e-03
+Gmb:         2.18e-13    2.18e-13    0.00e+00    8.51e-20    4.37e-13
+Cbd:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cbs:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cgsov:       6.00e-15    6.00e-15    6.00e-15    6.00e-15    6.00e-15
+Cgdov:       6.00e-15    6.00e-15    6.00e-15    6.00e-15    6.00e-15
+Cgbov:       8.00e-17    8.00e-17    8.00e-17    8.00e-17    8.00e-17
+Cgs:         2.07e-14    2.07e-14    2.07e-14    2.07e-14    2.07e-14
+Cgd:         2.07e-14    2.07e-14    2.07e-14    2.07e-14    2.07e-14
+Cgb:         0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+
+
+
+Date: Thu Dec 29 17:02:03 2022
+Total elapsed time: 0.083 seconds.
 
 tnom = 27
 temp = 27
-method = modified trap
-totiter = 19104
-traniter = 19070
-tranpoints = 4285
-accept = 3356
-rejected = 948
-matrix size = 62
+method = trap
+totiter = 34
+traniter = 0
+tranpoints = 0
+accept = 0
+rejected = 0
+matrix size = 66
 fillins = 16
 solver = Normal
-Matrix Compiler1: 5.80 KB object code size  2.8/2.0/[0.7]
-Matrix Compiler2: 7.37 KB object code size  1.9/2.7/[0.5]
 

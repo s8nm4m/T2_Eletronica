@@ -1,0 +1,69 @@
+Circuit: * C:\Users\ammit\Desktop\Pen\ISEL\ISEL\2223\LEIC\s1\E\Trab2\T2_Eletronica\E-TP2-guia-aulas-simulacao\E-TP2-guia-inicial-simulacao\static-gate-DCoppnt.asc
+
+Instance "m:mn3:1": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:mn2:1": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:mn1:1": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:mp3:1": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:mp2:1": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:mp1:1": Length shorter than recommended for a level 1 MOSFET.
+Direct Newton iteration for .op point succeeded.
+Semiconductor Device Operating Points:
+                        --- MOSFET Transistors ---
+Name:        m:mn3:1      m:mn2:1      m:mn1:1      m:mp3:1      m:mp2:1
+Model:     mn3:hef4007n mn2:hef4007n mn1:hef4007n mp3:hef4007p mp2:hef4007p
+Id:          1.00e-11     1.00e-11     1.00e-11    -1.00e-11     1.41e-10
+Vgs:         5.00e+00     0.00e+00     3.18e-09     0.00e+00    -5.00e+00
+Vds:         3.18e-09     5.00e+00     5.00e+00    -5.00e+00     1.38e-07
+Vbs:         0.00e+00     0.00e+00     0.00e+00     0.00e+00     1.72e-08
+Vth:         1.42e+00     1.42e+00     1.42e+00    -1.60e+00    -1.60e+00
+Vdsat:       3.58e+00     0.00e+00     0.00e+00    -0.00e+00    -3.40e+00
+Gm:          2.80e-12     0.00e+00     0.00e+00     0.00e+00     4.15e-11
+Gds:         3.15e-03     0.00e+00     0.00e+00     0.00e+00     1.02e-03
+Gmb:         3.61e-12     0.00e+00     0.00e+00     0.00e+00     2.68e-11
+Cbd:         2.00e-13     4.53e-14     4.53e-14     4.53e-14     2.00e-13
+Cbs:         2.00e-13     2.00e-13     2.00e-13     2.00e-13     2.00e-13
+Cgsov:       0.00e+00     0.00e+00     0.00e+00     0.00e+00     0.00e+00
+Cgdov:       0.00e+00     0.00e+00     0.00e+00     0.00e+00     0.00e+00
+Cgbov:       0.00e+00     0.00e+00     0.00e+00     0.00e+00     0.00e+00
+Cgs:         1.23e-13     0.00e+00     0.00e+00     1.62e-13     1.22e-13
+Cgd:         1.23e-13     0.00e+00     0.00e+00     0.00e+00     1.22e-13
+Cgb:         0.00e+00     2.47e-13     2.47e-13     0.00e+00     0.00e+00
+
+Name:        m:mp1:1
+Model:     mp1:hef4007p
+Id:         -1.75e-11
+Vgs:        -5.00e+00
+Vds:        -1.72e-08
+Vbs:         0.00e+00
+Vth:        -1.60e+00
+Vdsat:      -3.40e+00
+Gm:          5.15e-12
+Gds:         1.02e-03
+Gmb:         3.32e-12
+Cbd:         2.00e-13
+Cbs:         2.00e-13
+Cgsov:       0.00e+00
+Cgdov:       0.00e+00
+Cgbov:       0.00e+00
+Cgs:         1.22e-13
+Cgd:         1.22e-13
+Cgb:         0.00e+00
+
+
+
+Date: Thu Dec 29 16:06:26 2022
+Total elapsed time: 0.061 seconds.
+
+tnom = 27
+temp = 27
+method = trap
+totiter = 15
+traniter = 0
+tranpoints = 0
+accept = 0
+rejected = 0
+matrix size = 9
+fillins = 0
+solver = Normal
+Matrix Compiler1: 412 bytes object code size
+Matrix Compiler2: 793 bytes object code size
