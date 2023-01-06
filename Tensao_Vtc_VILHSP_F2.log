@@ -1,0 +1,8 @@
+Circuit: * C:\Users\ammit\Desktop\Pen\ISEL\ISEL\2223\LEIC\s1\E\Trab2\T2_Eletronica\Tensao_Vtc_VILHSP_F2.asc
+
+.step vinc=0 vind=0
+.step vinc=0.0001 vind=0
+.step vinc=0.0002 vind=0
+.step vinc=0.0003 vind=0
+.step vinc=0.0004 vind=0
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
